@@ -5,22 +5,21 @@
 package org.itson.ws;
 
 import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
-import java.util.List;
-import org.itson.entidad.Producto;
+
 /**
  *
- * @author Hisamy Cinco Cota
+ * @author hisam
  */
-@WebService(serviceName = "SOAP")
-public interface ISOAP {
+@WebService(serviceName = "ws")
+public class ws {
 
-
-    @WebMethod
-    public List<Producto> getProductos();
-    
-    @WebMethod
-    public void addProducto(Producto producto);
-    
-        
+    /**
+     * This is a sample web service operation
+     */
+    @WebMethod(operationName = "hello")
+    public String hello(@WebParam(name = "name") String txt) {
+        return "Hello " + txt + " !";
+    }
 }
