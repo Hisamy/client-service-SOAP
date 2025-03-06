@@ -6,7 +6,7 @@ package org.itson.entidadpropiacliente;
 
 /**
  *
- * @author hisam
+ * @author Hisamy Cinco Cota
  */
 public class EntidadPropiaCliente {
 
