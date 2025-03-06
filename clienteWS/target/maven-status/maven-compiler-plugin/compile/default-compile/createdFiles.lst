@@ -3,6 +3,5 @@ com\itson\soapcliente\NuevoWS_Service.class
 com\itson\soapcliente\package-info.class
 com\itson\soapcliente\Hello.class
 com\itson\soapcliente\NuevoWS.class
-org\itson\clientews\SoapServer2.class
 com\itson\soapcliente\ObjectFactory.class
 org\itson\clientews\ClienteWS.class

@@ -33,7 +33,7 @@
                             <wsdlFiles>
                                 <wsdlFile>localhost_8080/jakartaee-hello-world/nuevoWS.wsdl</wsdlFile>
                             </wsdlFiles>
-                            <packageName>com.itson.soapcliente</packageName>
+                            <packageName>org.itson.entidadPropia</packageName>
                             <vmArgs>
                                 <vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
                             </vmArgs>

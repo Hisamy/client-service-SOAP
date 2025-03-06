@@ -40,7 +40,7 @@
     </dependencies>
 
     <build>
-        <finalName>sopa-servicio</finalName>
+        <finalName>entidadPropia</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
